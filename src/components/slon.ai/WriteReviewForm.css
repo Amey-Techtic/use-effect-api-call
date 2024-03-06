@@ -1,0 +1,169 @@
+.review-form-wrapper{
+    padding: 96px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.review-form{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 600px;
+}
+
+.review-form-title-text{
+    margin-bottom: 16px;
+    font-size: 150%;
+    font-weight: bold;
+}
+.review-form-rating-label-svg-wrapper{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.review-form-rating{
+    color: gray;
+}
+.review-form-rating-label{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.review-form-star-svg{
+    width: 1.5rem;
+    height: 1.5rem; 
+    color: #38A1A1;
+    margin-inline-start: 0.2rem;
+}
+.review-form-review-title-review-input-wrapper{
+    margin-bottom: 24px;
+}
+
+.review-form-review-title-label{
+    color: gray;
+}
+.review-form-review-input{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    outline-color: #38A1A1;
+}
+.review-form-review-title-comments-textarea-wrapper{
+    margin-bottom: 24px;
+}
+.review-form-review-title-label{
+    color: gray;
+}
+.review-form-comments-textarea{
+    margin-top: 10px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    outline-color: #38A1A1;
+}
+
+.review-form-picture-file-input-select-label-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.review-form-picture-title-label{
+    color: gray;
+}
+.review-form-select-image-label{
+    margin-top: 10px;
+    padding: 25px;
+    width: 35%;
+    border: 1px solid #e4e4e4;
+    color: gray;
+    cursor: pointer;
+}
+.review-form-name-label-name-input-wrapper{
+    margin-bottom: 24px;
+}
+.review-form-name-label{
+    color: gray;
+}
+.review-form-name-input{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    outline-color: #38A1A1;
+}   
+.review-form-email-label-email-input-wrapper{
+    margin-bottom: 24px;
+}
+.review-form-email-label{
+    color: gray;
+}
+.review-form-email-input{
+    margin-top: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    outline-color: #38A1A1;
+}
+.review-form-terms-and-condition-wrapper{
+    margin-bottom: 24px;
+    text-align: center;
+}
+.review-form-terms-and-condition-privacy-and-policy-wrapper{
+    display: flex;
+    justify-content: center;
+    gap:4px;
+    align-items: center;
+}
+.review-form-terms-and-condition-text{
+    text-decoration: underline;
+    color: rgb(98, 43, 226);
+    cursor: pointer;
+}
+.review-form-privacy-and-policy-text{
+    text-decoration: underline;
+    color: rgb(98, 43, 226);
+    cursor: pointer;
+}
+.review-form-cancel-button-submit-button-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.review-form-cancel-button{
+    padding: 7px 15px;
+    border: 1px solid #38A1A1;
+    color: #38A1A1;
+    font-size: medium;
+    font-weight: bold;
+}
+.review-form-submit-button{
+    padding: 7px 15px;
+    background-color: #38A1A1;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.review-form-cancel-button:hover {
+    opacity: 0.6;
+
+}
+.review-form-submit-button:hover{
+    opacity: 0.7;
+}

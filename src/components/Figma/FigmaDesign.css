@@ -1,0 +1,132 @@
+.main-container {
+  /* width: 1120px;
+  height: 1368px; */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-div {
+  text-align: center;
+}
+#headH1 {
+  font-family: "Space Grotesk";
+  width: 366px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: #000;
+  text-align: center;
+}
+#subHead {
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#tab-positive{
+  font-family: "IBM Plex Sans";
+}
+.tab-flex {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.tab-div {
+  /* width: 148px;
+height: 30px; */
+flex-shrink: 0;
+  /* width: 148px;
+  padding: 6.5px; */
+  padding: 6px 45px 6px 45px;
+  height: auto;
+  flex-shrink: 0;
+  background: #f5f5f5;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.content-div {
+
+  width: 524px;
+  height: 234px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f5f5f5;
+  flex-shrink: 0;
+}
+.first-sub-content-div {
+  width: 162px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
+}
+svg {
+  width: 82px;
+  height: 25px;
+  flex-shrink: 0;
+}
+#percentage-text {
+  color: #000;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
+#customer-title-div {
+  display: flex;
+  width: 122px;
+  height: 45px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+#customer-title {
+  color: #7a7a7a;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+.second-sub-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 302px;
+  height: 194px;
+  flex-shrink: 0;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
+}
+#customer-review-text {
+  width: 262px;
+  height: 154px;
+  color: black;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
